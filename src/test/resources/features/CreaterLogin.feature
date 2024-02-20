@@ -18,7 +18,7 @@ Then user should not be logged in
 
 Examples: email/password
 |  email          |  password   |
-| omar@gmail.com  |  wrongPass  |
+| ong@gmail.com  |  wrongPass  |
 | wrong@gmail.com | dsadfsafsfs |
 |                 |   dsadsaas  |
 |                 |             |

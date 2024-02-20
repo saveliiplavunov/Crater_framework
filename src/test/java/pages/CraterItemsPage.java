@@ -32,8 +32,7 @@ public class CraterItemsPage {
 	@FindBy(xpath="//input[@type=\"text\" and starts-with(@class,\"w-full\")]")
 	public  WebElement ItemUnitBox;
 	
-	@FindBy(xpath="//li[starts-with(@class,'flex')]")
-	public  List <WebElement> ItemUnitListDropdown;
+	
 	
 	@FindBy(xpath="//textarea[@name='description']")
 	public  WebElement ItemDiscriptionBox;
