@@ -33,7 +33,6 @@ public class CraterItemsPage {
 	public  WebElement ItemUnitBox;
 	
 	
-	
 	@FindBy(xpath="//textarea[@name='description']")
 	public  WebElement ItemDiscriptionBox;
 	

@@ -69,6 +69,7 @@ public class CratorItemTest {
 	    // Write code here that turns the phrase above into concrete actions
 	    Assert.assertTrue(items.FirstItemCheckBox.isDisplayed());
 	}
+	
 	@Then("I delete the item")
 	public void i_delete_the_item() {
 	    // Write code here that turns the phrase above into concrete actions

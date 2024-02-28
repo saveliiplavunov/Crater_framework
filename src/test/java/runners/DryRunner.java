@@ -13,6 +13,7 @@ import io.cucumber.junit.CucumberOptions;
 				},
 		features="src/test/resources/features",
 		glue="step_defintions",
+		tags="@test1",
 		dryRun=true
 		)
 public class DryRunner {

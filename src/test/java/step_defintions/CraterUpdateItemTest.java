@@ -1,6 +1,8 @@
 package step_defintions;
 
 import org.junit.Assert;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
 
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -22,10 +24,11 @@ public class CraterUpdateItemTest {
 
 
 	@When("I select the item {string}")
-	public void i_select_the_item(String string) {
+	public void i_select_the_item(String item) {
 	    // Write code here that turns the phrase above into concrete actions
 	    utils.waitForElementToBeVisible(items.FirstItemCheckBox);
-	    items.BooksItem.click();
+	    WebElement target = Driver.driver.findElement(By.xpath("//*[text()='"+item+"']"));
+	    target.click();
 	}
 	@When("I should be on item details page")
 	public void i_should_be_on_item_details_page() {
