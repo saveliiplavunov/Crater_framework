@@ -5,7 +5,7 @@ Feature: Update item functionality
 Scenario: As a user, I am able to update an item or a service
 Given As an entity user, I am logged in
 And I navigate to Items tab
-When I select the item "coffe mug"
+When I select the item "cofffe mug"
 And I should be on item details page
 When I update the item price to 30 dollars
 And I click Update Item button 
