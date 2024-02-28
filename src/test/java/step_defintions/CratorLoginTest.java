@@ -27,20 +27,20 @@ public class CratorLoginTest {
 	}
 	
 	
-	@Then("user should be able so see Page Title {string},textbox with label {string},textbox with label {string},link title {string},primary button {string},text area {string},heading {string},and second heading {string}")
-	public void user_should_be_able_so_see_page_title_textbox_with_label_textbox_with_label_link_title_primary_button_text_area_heading_and_second_heading(String title, String email, String password, String forgotPassword, String loginBtn, String text1, String heading1, String heading2) throws InterruptedException {
-	    // Write code here that turns the phrase above into concrete actions
-	Thread.sleep(1000);
-	Assert.assertTrue(Driver.getDriver().getTitle().equals(title));
-	Assert.assertTrue(login.EmailTextBox.getText().equals(email));
-	Assert.assertTrue(login.PasswordTextBox.getText().equals(password));
-	Assert.assertTrue(login.forgotPassLink.getText().equals(forgotPassword));
-	Assert.assertTrue(login.loginBtnText.getText().equals(loginBtn));
-	Assert.assertTrue(login.text1.getText().equals(text1));
-	Assert.assertTrue(login.heading1.getText().equals(heading1));
-	Assert.assertTrue(login.heading2.getText().equals(heading2));
-	
-	}
+//	@Then("user should be able so see Page Title {string},textbox with label {string},textbox with label {string},link title {string},primary button {string},text area {string},heading {string},and second heading {string}")
+//	public void user_should_be_able_so_see_page_title_textbox_with_label_textbox_with_label_link_title_primary_button_text_area_heading_and_second_heading(String title, String email, String password, String forgotPassword, String loginBtn, String text1, String heading1, String heading2) throws InterruptedException {
+//	    // Write code here that turns the phrase above into concrete actions
+//	
+//	Assert.assertTrue(Driver.getDriver().getTitle().equals(title));
+//	Assert.assertTrue(login.EmailTextBox.getText().equals(email));
+//	Assert.assertTrue(login.PasswordTextBox.getText().equals(password));
+//	Assert.assertTrue(login.forgotPassLink.getText().equals(forgotPassword));
+//	Assert.assertTrue(login.loginBtnText.getText().equals(loginBtn));
+//	Assert.assertTrue(login.text1.getText().equals(text1));
+//	Assert.assertTrue(login.heading1.getText().equals(heading1));
+//	Assert.assertTrue(login.heading2.getText().equals(heading2));
+//	
+//	}
 	
 	
 

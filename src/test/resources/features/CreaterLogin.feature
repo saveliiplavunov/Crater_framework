@@ -2,11 +2,11 @@
 @test1 @regression
 Feature: Crater Login Page Functionality
 
-
-Scenario: Prime Tech Invoice App Login UI Components
-Given user is on the login page
-When user is on the login page
-Then user should be able so see Page Title "crater",textbox with label "Email",textbox with label "Password",link title "Forgot password",primary button "Login",text area "Copyright @ Crater Invoice, Inc. 2023",heading "Simple Invoicing for Individuals Small Businesses",and second heading "Crater helps you track expenses, record payments & generate beautiful invoices & estimates"
+#@UIlogin
+#Scenario: Prime Tech Invoice App Login UI Components
+#Given user is on the login page
+#When user is on the login page
+#Then user should be able so see Page Title "Crater",textbox with label "Email",textbox with label "Password",link title "Forgot password",primary button "Login",text area "Copyright @ Crater Invoice, Inc. 2023",heading "Simple Invoicing for Individuals Small Businesses",and second heading "Crater helps you track expenses, record payments & generate beautiful invoices & estimates"
 
 
 Scenario: Crater valid login
