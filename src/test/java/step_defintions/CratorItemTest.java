@@ -48,8 +48,8 @@ public class CratorItemTest {
 	}
 	@Then("I should be on item input page")
 	public void i_should_be_on_item_input_page() {
-//	    utils.waitForElementToBeVisible(items.ItemsPageHeader);
-//	    assertTrue(items.ItemsPageHeader.isDisplayed());
+	    utils.waitForElementToBeVisible(items.ItemsPageHeader);
+	    assertTrue(items.ItemsPageHeader.isDisplayed());
 	    
 	}
 	@When("I provide item information name {string}, price {string}, unit {string}, and description {string}")

@@ -17,7 +17,7 @@ public class CraterItemsPage {
 	@FindBy(xpath="//a[@href='/admin/items']")
 	public  WebElement ItemsLink;
 	
-	@FindBy(xpath="//h3[text()=\"Items\"]")
+	@FindBy(xpath="//h3[text()=\"New Item\"]")
 	public  WebElement ItemsPageHeader;
 	
 	@FindBy(xpath="//button[starts-with(@class, 'inline-flex')][2]")
