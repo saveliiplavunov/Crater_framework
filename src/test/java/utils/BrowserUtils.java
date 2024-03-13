@@ -1,17 +1,23 @@
 package utils;
 
 import java.time.Duration;
+
+
+
 import java.util.List;
 import java.util.Random;
 
 import org.openqa.selenium.By;
+
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class BrowserUtils {
 
+
+public class BrowserUtils {
+	
 	WebDriverWait wait;
 	Actions act;
 	
@@ -73,7 +79,6 @@ public class BrowserUtils {
 			int randomNum = rand.nextInt((999 - 100) + 1) + 100;
 			return randomNum;
 		}
-
 
 
 
