@@ -1,24 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-03-12T20:16:05 EDT" name="Crater_Items_Mngt" finished-at="2024-03-12T20:16:08 EDT" duration-ms="2803">
+  <suite started-at="2024-03-21T23:37:11 EDT" name="Default suite" finished-at="2024-03-21T23:37:15 EDT" duration-ms="4327">
     <groups>
       <group name="smoke-test">
-        <method signature="item_managment_api.list_all_items()[pri:0, instance:api_tests.item_managment_api@16ec5519]" name="list_all_items" class="api_tests.item_managment_api"/>
+        <method signature="item_managment_api.list_all_items()[pri:0, instance:api_tests.item_managment_api@61df66b6]" name="list_all_items" class="api_tests.item_managment_api"/>
       </group> <!-- smoke-test -->
     </groups>
-    <test started-at="2024-03-12T20:16:05 EDT" name="Crater Items API Tests" finished-at="2024-03-12T20:16:08 EDT" duration-ms="2803">
+    <test started-at="2024-03-21T23:37:11 EDT" name="Default test" finished-at="2024-03-21T23:37:15 EDT" duration-ms="4327">
       <class name="api_tests.item_managment_api">
-        <test-method signature="login_test()[pri:0, instance:api_tests.item_managment_api@16ec5519]" started-at="2024-03-12T20:16:05 EDT" name="login_test" finished-at="2024-03-12T20:16:06 EDT" duration-ms="932" status="PASS">
+        <test-method signature="login_test()[pri:0, instance:api_tests.item_managment_api@61df66b6]" started-at="2024-03-21T23:37:11 EDT" name="login_test" finished-at="2024-03-21T23:37:12 EDT" duration-ms="886" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login_test -->
-        <test-method signature="list_all_items()[pri:0, instance:api_tests.item_managment_api@16ec5519]" started-at="2024-03-12T20:16:06 EDT" name="list_all_items" finished-at="2024-03-12T20:16:08 EDT" depends-on-methods="api_tests.item_managment_api.login_test" duration-ms="1855" status="PASS">
+        <test-method signature="create_item()[pri:0, instance:api_tests.item_managment_api@61df66b6]" started-at="2024-03-21T23:37:12 EDT" name="create_item" finished-at="2024-03-21T23:37:13 EDT" depends-on-methods="api_tests.item_managment_api.login_test" duration-ms="556" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create_item -->
+        <test-method signature="list_all_items()[pri:0, instance:api_tests.item_managment_api@61df66b6]" started-at="2024-03-21T23:37:13 EDT" name="list_all_items" finished-at="2024-03-21T23:37:14 EDT" depends-on-methods="api_tests.item_managment_api.login_test" duration-ms="1700" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- list_all_items -->
+        <test-method signature="get_item()[pri:0, instance:api_tests.item_managment_api@61df66b6]" started-at="2024-03-21T23:37:14 EDT" name="get_item" finished-at="2024-03-21T23:37:15 EDT" depends-on-methods="api_tests.item_managment_api.create_item" duration-ms="486" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_item -->
+        <test-method signature="update_item()[pri:0, instance:api_tests.item_managment_api@61df66b6]" started-at="2024-03-21T23:37:15 EDT" name="update_item" finished-at="2024-03-21T23:37:15 EDT" depends-on-methods="api_tests.item_managment_api.get_item" duration-ms="493" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- update_item -->
+        <test-method signature="delete_item()[pri:0, instance:api_tests.item_managment_api@61df66b6]" started-at="2024-03-21T23:37:15 EDT" name="delete_item" finished-at="2024-03-21T23:37:15 EDT" depends-on-methods="api_tests.item_managment_api.update_item" duration-ms="185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delete_item -->
       </class> <!-- api_tests.item_managment_api -->
-    </test> <!-- Crater Items API Tests -->
-  </suite> <!-- Crater_Items_Mngt -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

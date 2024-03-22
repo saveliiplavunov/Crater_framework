@@ -1,4 +1,4 @@
-@regression @CustomersUI
+ @CustomersUI
 Feature: Verify crater customer page
 
 Background:

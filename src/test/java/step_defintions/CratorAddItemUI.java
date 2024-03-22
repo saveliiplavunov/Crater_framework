@@ -1,7 +1,7 @@
 package step_defintions;
 
 import org.junit.Assert;
-
+import org.openqa.selenium.Alert;
 
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -153,6 +153,7 @@ public class CratorAddItemUI {
 	@Then("a dropdown labled unit")
 	public void a_dropdown_labled_unit() {
 	    Assert.assertTrue(items.ItemUnitBox.isDisplayed());
+	    
 	}
 	@Then("a comment box labled Description")
 	public void a_comment_box_labled_description() {
